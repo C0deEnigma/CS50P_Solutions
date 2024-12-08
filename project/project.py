@@ -48,7 +48,8 @@ def get_city():
 
 def weather():
     city=get_city()
-    url=f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid=d13e913a090e16475014943e3147e564&units=metric'
+    api-key=input('Enter your api-key of openweathermap. Make an account and fetch the key if it do not have one.')
+    url=f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api-key}&units=metric'
     weather_data=requests.get(url).json()
     description=weather_data['weather'][0]['description']
     temp=weather_data['main']['temp']
