@@ -3,7 +3,7 @@
 
 ##INTRODUCTION
 
-###The Voice-Based Weather and Time Assistant is a Python-powered application that provides the current date, time, and weather information aloud.
+The Voice-Based Weather and Time Assistant is a Python-powered application that provides the current date, time, and weather information aloud.
 This project is developed with accessibility in mind, focusing on visually impaired individuals as well as those seeking hands-free experience for daily updates.
 This assistant incorporates APIs for location and weather retrieval and utilizes text-to-speech technology for natural, spoken output. Its design is based on usability, dynamic functionality, and accessibility.
 
